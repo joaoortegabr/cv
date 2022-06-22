@@ -1,0 +1,272 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(63, 50, 182);
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+
+#container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    min-width: 330px;
+    color: #333;
+}
+
+nav {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    width: 320px;
+    color: #fff;
+    padding: 10px 30px 60px 30px;
+    overflow: hidden;
+}
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    align-items: center;
+    flex-grow: 1;
+    width: 420px;
+    background-color: #f7f7f7;
+    padding: 40px 50px 100px 50px;
+}
+
+section {
+    width: 100%;
+}
+
+h1 {
+    font-size: 3rem;
+    text-align: right;
+}
+
+h2 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+h3 {
+    font-size: 1.3rem;
+    margin: 10px 0 0 0;
+}
+
+h4 {
+    font-size: 1.2rem;
+    margin: 0 0 5px 0;
+    text-transform: uppercase;
+}
+
+h5 {
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* NAV */
+
+#profile {
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+
+.pic {
+    width: 220px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+}
+
+#profile h2 {
+    margin: 10px 0 5px 0;
+}
+
+#profile p {
+    margin: 0 0 20px 0;
+}
+
+#social-media, #languages {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: left;
+}
+
+#social-media li, #languages li {
+    line-height: 2.1rem;
+}
+
+.social-icon {
+    margin: 0 0 0 20px;
+}
+
+#social-media li {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-center;
+    align-items: center;
+    margin: 5px 0 0 0;
+}
+
+#social-media a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#social-media a:hover, a:active {
+    text-decoration: underline;
+}
+
+#languages h2 {
+    margin: 40px 0 20px 0;
+}
+
+#languages img {
+    width: 50px;
+    height: auto;
+    vertical-align: middle;
+    margin: 5px 10px 10px 0;
+}
+
+#languages li {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+    line-height: 1.4rem;
+}
+
+
+/* MAIN */
+
+main h2 {
+    margin: 20px 0;
+}
+
+main h3 {
+    margin: 20px 0 0 0;
+    color: #666;
+}
+
+.divider {
+    height: 2px;
+    width: 80%;
+    margin: 30px 0;
+    background: rgb(63, 50, 182);
+    background: linear-gradient(90deg, #f7f7f7, #ccc, #f7f7f7);
+}
+
+#job-title {
+    font-size: 1.5rem;
+    text-align: right;
+}
+
+#brief-description {
+    text-align: left;
+}
+
+.skill-tree {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.skill-tree > li {
+    margin: 5px 20px;
+    justify-content: space-evenly;
+}
+
+.skill-item {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.skill-item img {
+    width: 60px;
+    height: auto;
+    margin: 5px 5px 5px 0;
+}
+
+.box-star {
+    display: flex;
+    flex-flow: column nowrap;
+    min-width: 100px;
+}
+
+.fa-star, .fa-rectangle {
+    color: #ccc;
+}
+
+.checked {
+    color: rgb(255, 165, 0);
+}
+
+#soft-skills > ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#soft-skills ul li {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 5px 20px 0 0;
+    min-width: 320px;
+}
+
+#soft-skills img {
+    width: 80px;
+    height: auto;
+    margin: 5px 10px 5px 0;
+    border-radius: 4px;
+}
+
+#work-experience ul {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.work-xp {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 0 30px 0;
+}
+
+.work-xp h4.date {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 20px 10px 0;
+    width: 200px;
+    color: rgb(255, 165, 0);
+    text-transform: none;
+}
+
+.work-description {
+    display: flex;
+    flex-flow: column wrap;
+    border-left: 1px dashed #999;
+    padding: 0 0 0 20px;
+}
+
+.work-description ul {
+    list-style-type: disc;
+    margin: 5px 0 0 40px;
+}
+
+.work-description li {
+    line-height: 1.5rem;
+}
+
