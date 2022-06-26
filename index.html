@@ -4,13 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="João Ortega Professional Resume">
-    <meta name="keywords" content="HTML, CSS, JavaScript, React, Java, PHP, NodeJS, Solidity, Scrum, Kanban, front-end, back-end, blockchain, dev, developer, junior, development, software, code, it, technology">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React, Java, PHP, NodeJS, API, REST, Solidity, Scrum, Kanban, front-end, back-end, blockchain, dev, developer, junior, development, software, code, it, technology">
     <meta name="author" content="João Ortega">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/8a185f9b58.js" crossorigin="anonymous"></script>
-    <!-- <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" /> -->
     <link rel="stylesheet" href="./style.css" />
-    <title>João Ortega</title>
+    <title>João Ortega Resume</title>
 </head>
 <body>
 
@@ -23,10 +22,10 @@
             </div>
             <div id="social-media">
                 <ul>
-                    <li><a href="https://www.linkedin.com/in/joaoortegabr/" target="blank"><i class="fa fa-2x fa-brands fa-linkedin" aria-hidden="true"></i><span class="social-icon">/joaoortegabr</span></a></li>
-                    <li><a href="https://github.com/joaoortegabr/" target="blank"><i class="fa fa-2x fa-brands fa-github" aria-hidden="true"></i><span class="social-icon">/joaoortegabr</span></a></li>
-                    <li><a href="mailto:joaoortegabr@gmail.com" target="blank"><i class="fa fa-2x fa-solid fa-envelope" aria-hidden="true"></i><span class="social-icon">joaoortegabr@gmail.com</span></a></li>
-                    <li><a href="https://api.whatsapp.com/send?phone=5511998208126" target="blank"><i class="fa fa-2x fa-brands fa-whatsapp"></i><span class="social-icon">+55 11 998208126</span></a>  </li>
+                    <li><a href="https://www.linkedin.com/in/joaoortegabr/" target="blank"><i class="fa fa-2x fa-brands fa-linkedin" aria-hidden="true"></i>/joaoortegabr</a></li>
+                    <li><a href="https://github.com/joaoortegabr/" target="blank"><i class="fa fa-2x fa-brands fa-github" aria-hidden="true"></i>/joaoortegabr</a></li>
+                    <li><a href="mailto:joaoortegabr@gmail.com" target="blank"><i class="fa fa-2x fa-solid fa-envelope" aria-hidden="true"></i>joaoortegabr@gmail.com</a></li>
+                    <li><a href="https://api.whatsapp.com/send?phone=5511998208126" target="blank"><i class="fa fa-2x fa-brands fa-whatsapp"></i>+55 11 998208126</a>  </li>
                 </ul>
             </div>
             <div id="languages">
@@ -166,6 +165,35 @@
                         </div>
                     </li>
                 </ul>
+                <h3>Database</h3>
+                <ul class="skill-tree">
+                    <li class="skill-item">
+                        <img src="./img/logo-mysql.png" alt="MySQL">
+                        <div class="box-star">
+                            <p>MySQL</p>
+                            <ul>
+                                <li class="fa fa-star checked" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="skill-item">
+                        <img src="./img/logo-postgre.png" alt="Postgre">
+                        <div class="box-star">
+                            <p>Postgre</p>
+                            <ul>
+                                <li class="fa fa-star checked" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
                 <h3>Blockchain</h3>
                 <ul class="skill-tree">
                     <li class="skill-item">
@@ -257,15 +285,74 @@
 
             <div class="divider"></div>
 
+            <section id="projects">
+                <h2>Projects and Codes</h2>
+                <button class="pre-btn"><img src="./img/arrow.png" alt="previous"></button>
+                <button class="nxt-btn"><img src="./img/arrow.png" alt="next"></button>
+                <div class="project-container">
+                    <div class="card">
+                        <div class="project-image">
+                            <img src="./projects/project1.png" alt="Tech Day Carrefour" class="project-thumb">
+                            <a href="https://carrefour-challenge.netlify.app/" target="blank"><span class="card-btn">visit site</span></a>
+                        </div>
+                        <div class="project-info">
+                            <h5 class="project-name">Tech Day Carrefour</h5>
+                            <p class="project-short-description">Carrefour Brazil code challenge.<br />
+                                Used Carrefour API to build a geolocation solution. 'Moesif CORS' Chrome extension required.<br />
+                                <small><a href="https://github.com/joaoortegabr/carrefour-challenge" target="blank">GitHub link</a>
+                                    | HTML CSS Javascript</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="project-image">
+                            <img src="./projects/project2.png" alt="Landing Page example" class="project-thumb">
+                            <a href="https://landingpage-joaoortega.netlify.app/" target="blank"><span class="card-btn">visit site</span></a>
+                        </div>
+                        <div class="project-info">
+                            <h5 class="project-name">Landing Page Example</h5>
+                            <p class="project-short-description">Responsive Landing Page that saves data in Local Storage built for portfolio.<br />
+                                <small><a href="https://github.com/joaoortegabr/landingpage-expresslab" target="blank">GitHub link</a>
+                                 | HTML CSS Javascript</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="project-image">
+                            <img src="./projects/project3.png" alt="Task List" class="project-thumb">
+                            <a href="https://listar.netlify.app" target="blank"><span class="card-btn">visit site</span></a>
+                        </div>
+                        <div class="project-info">
+                            <h5 class="project-name">Simple Task List</h5>
+                            <p class="project-short-description">Simple task list built for portfolio.<br />
+                                <small><a href="https://github.com/joaoortegabr/lista-de-tarefas" target="blank">GitHub link</a>
+                                 | HTML CSS React Javascript</small></p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="project-image">
+                            <img src="./projects/project4.png" alt="Genius clone game" class="project-thumb">
+                            <a href="https://almost-a-genious.netlify.app" target="blank"><span class="card-btn">visit site</span></a>
+                        </div>
+                        <div class="project-info">
+                            <h5 class="project-name">Genius clone</h5>
+                            <p class="project-short-description">Genius game built following tutorial for portfolio.<br />
+                                <small><a href="https://github.com/joaoortegabr/genius-game" target="blank">GitHub link</a>
+                                | HTML CSS Javascript</small></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="divider"></div>
+
             <section id="soft-skills">
                 <h2>Soft Skills</h2>
                 <ul>
-                    <li><img src="./img/ss1.png" alt=""> Teamwork and collaboration</li>
-                    <li><img src="./img/ss2.png" alt="">Professionalism and strong ethic</li>
-                    <li><img src="./img/ss3.png" alt="">Creativity and open-mindedness</li>
-                    <li><img src="./img/ss4.png" alt="">Assertiveness and problem solving</li>
-                    <li><img src="./img/ss5.png" alt="">Leadership and training</li>
-                    <li><img src="./img/ss6.png" alt="">Flexibility and adaptability</li>
+                    <li><img src="./img/ss1.png" alt="Teamwork and collaboration">Teamwork and collaboration</li>
+                    <li><img src="./img/ss2.png" alt="Professionalism and strong ethic">Professionalism and strong ethic</li>
+                    <li><img src="./img/ss3.png" alt="Creativity and open-mindedness">Creativity and open-mindedness</li>
+                    <li><img src="./img/ss4.png" alt="Assertiveness and problem solving">Assertiveness and problem solving</li>
+                    <li><img src="./img/ss5.png" alt="Leadership and training">Leadership and team training</li>
+                    <li><img src="./img/ss6.png" alt="Flexibility and adaptability">Flexibility and adaptability</li>
                 </ul>
             </section>
 
@@ -279,12 +366,17 @@
                         <div class="work-description">
                             <h4>Welfare small business</h4>
                             <h5>Owner/Manager</h5>
+                            <p class="ss-line-header">Main activities:</p>
                             <ul>
                                 <li>Customer and financial management</li>
                                 <li>Weekly meeting with instructors and staff</li>
-                                <li>Stakeholders negotiation</li>
+                                <li>Business negotiation with stakeholders</li>
                                 <li>Government regulation adjustments</li>
                                 <li>Site development (Wordpress) and emails reply</li>
+                            </ul>
+                            <p class="ss-line-header">Main soft skills:</p>
+                            <ul>
+                                <li>All</li>
                             </ul>
                         </div>
                     </li>
@@ -293,12 +385,19 @@
                         <div class="work-description">
                             <h4>Sao Paulo City Council</h4>
                             <h5>Communication Analyst</h5>
+                            <p class="ss-line-header">Main activities:</p>
                             <ul>
                                 <li>Citizens direct service and orientation</li>
-                                <li>Follow up of citizens and city counselors requests</li>
+                                <li>Follow up of citizens and other city counselors requests</li>
                                 <li>Printed and digital graphic production for events, presentations and social activities</li>
                                 <li>Social media management (Facebook, Twitter, Instagram and YouTube Channel)</li>
                                 <li>Site development (Wordpress) and emails reply</li>
+                            </ul>
+                            <p class="ss-line-header">Main soft skills:</p>
+                            <ul>
+                                <li>Professionalism and strong ethic</li>
+                                <li>Assertiveness and problem solving</li>
+                                <li>Flexibility and adaptability</li>
                             </ul>
                         </div>
                     </li>
@@ -307,6 +406,7 @@
                         <div class="work-description">
                             <h4>Nextel Telecom</h4>
                             <h5>Marketing Analyst PL</h5>
+                            <p class="ss-line-header">Main activities:</p>
                             <ul>
                                 <li>Weekly meetings with Nextel and Motorola teams to prepare the new launches</li>
                                 <li>Document localization, device test and bug report</li>
@@ -315,6 +415,12 @@
                                 <li>Results presentation to Nextel board</li>
                                 <li>Customer service complaints handling</li>
                             </ul>
+                            <p class="ss-line-header">Main soft skills:</p>
+                            <ul>
+                                <li>Creativity and open-mindedness</li>
+                                <li>Teamwork and collaboration</li>
+                                <li>Assertiveness and problem solving</li>
+                            </ul>
                         </div>
                     </li>
                     <li class="work-xp">
@@ -322,12 +428,19 @@
                         <div class="work-description">
                             <h4>Nextel Telecom</h4>
                             <h5>Technical Support Team Leader</h5>
+                            <p class="ss-line-header">Main activities:</p>
                             <ul>
                                 <li>Bilingual team hiring, feedback and recycling</li>
                                 <li>Team training and technical content production</li>
                                 <li>Technical consult provided to marketing area</li>
                                 <li>KPI monitoring (FCR, NSAT, TMO, TMA, ABS)</li>
                                 <li>Results presentation to Nextel Customer Service Manager</li>
+                            </ul>
+                            <p class="ss-line-header">Main soft skills:</p>
+                            <ul>
+                                <li>Leadership and team training</li>
+                                <li>Flexibility and adaptability</li>
+                                <li>Assertiveness and problem solving</li>
                             </ul>
                         </div>
                     </li>
@@ -336,6 +449,7 @@
                         <div class="work-description">
                             <h4>Microsoft CS Operations</h4>
                             <h5>Customer Service Team Leader</h5>
+                            <p class="ss-line-header">Main activities:</p>
                             <ul>
                                 <li>Team hiring, feedback and recycling</li>
                                 <li>New employees training and content production for knowledge base</li>
@@ -343,6 +457,12 @@
                                 <li>KPI monitoring (FCR, NSAT, TMO, TMA, ABS)</li>
                                 <li>Metrics report and presentation to Microsoft board</li>
                                 <li>Support to Microsoft resellers, developers and academic partners</li>
+                            </ul>
+                            <p class="ss-line-header">Main soft skills:</p>
+                            <ul>
+                                <li>Leadership and team training</li>
+                                <li>Flexibility and adaptability</li>
+                                <li>Assertiveness and problem solving</li>
                             </ul>
                         </div>
                     </li>
@@ -359,7 +479,6 @@
         </main>
     </div>
   
-    <script src="./script.js"></script>
-    
+    <script src="./script.js"></script>  
 </body>
 </html>
