@@ -345,14 +345,6 @@ main h3 {
     margin: 5px 0;
 }
 
-.project-short-description a, a:hover{
-    text-decoration: none;
-}
-
-.project-short-description a:hover{
-    text-decoration: underline;
-}
-
 .pre-btn, .nxt-btn {
     display: flex;
     justify-content: center;
@@ -428,9 +420,50 @@ main h3 {
 }
 
 
-@media (max-width: 420px) {
+@media (max-width: 480px) {
+
+    nav {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        width: 100%;
+    }
+
+    #profile {
+        width: 100%;
+        padding: 20px 0 10px 0;
+        text-align: center;
+    }
+
+    .pic {
+        border-radius: 50%;
+        border: 6px solid #fff;
+    }
+
+    .project-container {
+        width: 100%;
+    }
+
+    .card {
+        flex: 0 0 auto;
+        width: 100%;
+        height: 100%;
+    }
+
+    .card:hover .card-btn {
+        opacity: 1;
+    }
+
+    .project-image {
+        width: 100%;
+        height: 155px;
+    }
+
+    .pre-btn, .nxt-btn {
+        position: relative;
+        width: 20px;
+        height: 30px;
+    }
 
 
-
-    
 }
