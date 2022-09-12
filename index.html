@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="João Ortega Professional Resume">
-    <meta name="keywords" content="HTML, CSS, JavaScript, React, Java, PHP, NodeJS, API, REST, Solidity, Scrum, Kanban, front-end, back-end, blockchain, dev, developer, junior, development, software, code, it, technology">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React, Java, PHP, NodeJS, Spring Boot, API, REST, Solidity, Scrum, Kanban, front-end, back-end, blockchain, dev, developer, junior, development, software, code, it, technology">
     <meta name="author" content="João Ortega">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/8a185f9b58.js" crossorigin="anonymous"></script>
@@ -14,21 +14,21 @@
 <body>
 
     <div id="container">
-        <nav>
-            <div id="profile">
+        <header>
+            <section id="profile">
                 <img src="./img/pic.jpg" class="pic" alt="João Ortega picture">
                 <h2>João Ortega</h2>
                 <p><i>Brazilian, 42 yo</i></p>
-            </div>
-            <div id="social-media">
+            </section>
+            <nav id="social-media">
                 <ul>
                     <li><a href="https://www.linkedin.com/in/joaoortegabr/" target="blank"><i class="fa fa-2x fa-brands fa-linkedin" aria-hidden="true"></i>/joaoortegabr</a></li>
                     <li><a href="https://github.com/joaoortegabr/" target="blank"><i class="fa fa-2x fa-brands fa-github" aria-hidden="true"></i>/joaoortegabr</a></li>
                     <li><a href="mailto:joaoortegabr@gmail.com" target="blank"><i class="fa fa-2x fa-solid fa-envelope" aria-hidden="true"></i>joaoortegabr@gmail.com</a></li>
                     <li><a href="https://api.whatsapp.com/send?phone=5511998208126" target="blank"><i class="fa fa-2x fa-brands fa-whatsapp"></i>+55 11 998208126</a>  </li>
                 </ul>
-            </div>
-            <div id="languages">
+            </nav>
+            <section id="languages">
                 <h2>Languages</h2>
                 <i class="fa fa-rectangle"></i>
                 <ul>
@@ -39,20 +39,25 @@
                     <li><img src="./img/flag-es.png" alt="Spanish" aria-hidden="true">Spanish<br />beginner A2</li>
                     <li><img src="./img/flag-ge.png" alt="German" aria-hidden="true">German<br />beginner A1</li>
                 </ul>
-            </div>
-        </nav>
+            </section>
+        </header>
 
         <main>
-            <section id="header">
+            <header>
                 <h1>João Ortega</h1>
-                <p id="job-title">Software Developer Jr.</p>
+                <p id="job-title">Software Developer</p>
 
                 <h2>Summary</h2>
-                <p id="brief-description">Experienced professional migrating career from Marketing to Technology looking for opportunities to start and contribute to technology projects.</p>
-            </section>
+                <p class="brief-description">Experienced professional <strong>migrating career</strong> from Marketing to Technology looking for an <strong>entry-level</strong> job to start in IT area.<br />
+                I'm searching for an opportunity to join a company, contribute with my skills and build my new career there.</p>
+                
+                <p class="brief-description">My studying process so far is based on Udemy courses <strong>(80h+)</strong>, watching tutorials on YouTube <strong>(120h+)</strong>, and reading documentation to build solutions that can be seen in my portfolio.</p>
+                
+                <p class="brief-description">I'm <strong>available for interviews</strong>, technical tests, and challenges to measure my skills.</p>
+            </header>
 
             <div class="divider"></div>
-
+            
             <section id="hard-skills">
                 <h2>Hard Skills</h2>
                 <h3>Front-end</h3>
@@ -109,6 +114,19 @@
                             </ul>
                         </div>
                     </li>
+                    <li class="skill-item">
+                        <img src="./img/logo-angular.png" alt="Angular">
+                        <div class="box-star">
+                            <p>Angular</p>
+                            <ul>
+                                <li class="fa fa-star checked" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                            </ul>
+                        </div>
+                    </li>
                 </ul>
                 <h3>Back-end</h3>
                 <ul class="skill-tree">
@@ -116,6 +134,19 @@
                         <img src="./img/logo-java.png" alt="Java">
                         <div class="box-star">
                             <p>Java</p>
+                            <ul>
+                                <li class="fa fa-star checked" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                                <li class="fa fa-star" aria-hidden="true"></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="skill-item">
+                        <img src="./img/logo-spring.png" alt="Spring Boot">
+                        <div class="box-star">
+                            <p>Spring Boot</p>
                             <ul>
                                 <li class="fa fa-star checked" aria-hidden="true"></li>
                                 <li class="fa fa-star" aria-hidden="true"></li>
@@ -351,7 +382,6 @@
                     <li><img src="./img/ss2.png" alt="Professionalism and strong ethic">Professionalism and strong ethic</li>
                     <li><img src="./img/ss3.png" alt="Creativity and open-mindedness">Creativity and open-mindedness</li>
                     <li><img src="./img/ss4.png" alt="Assertiveness and problem solving">Assertiveness and problem solving</li>
-                    <li><img src="./img/ss5.png" alt="Leadership and training">Leadership and team training</li>
                     <li><img src="./img/ss6.png" alt="Flexibility and adaptability">Flexibility and adaptability</li>
                 </ul>
             </section>
@@ -364,12 +394,12 @@
                     <li class="work-xp">
                         <h4 class="date">may/2014 - today</h4>
                         <div class="work-description">
-                            <h4>Welfare small business</h4>
-                            <h5>Owner/Manager</h5>
+                            <h4>MUV</h4>
+                            <h5>Management consultant</h5>
                             <p class="ss-line-header">Main activities:</p>
                             <ul>
                                 <li>Customer and financial management</li>
-                                <li>Weekly meeting with instructors and staff</li>
+                                <li>Weekly meeting with staff</li>
                                 <li>Business negotiation with stakeholders</li>
                                 <li>Government regulation adjustments</li>
                                 <li>Site development (Wordpress) and emails reply</li>
@@ -430,7 +460,7 @@
                             <h5>Technical Support Team Leader</h5>
                             <p class="ss-line-header">Main activities:</p>
                             <ul>
-                                <li>Bilingual team hiring, feedback and recycling</li>
+                                <li>Bilingual team management</li>
                                 <li>Team training and technical content production</li>
                                 <li>Technical consult provided to marketing area</li>
                                 <li>KPI monitoring (FCR, NSAT, TMO, TMA, ABS)</li>
@@ -438,7 +468,6 @@
                             </ul>
                             <p class="ss-line-header">Main soft skills:</p>
                             <ul>
-                                <li>Leadership and team training</li>
                                 <li>Flexibility and adaptability</li>
                                 <li>Assertiveness and problem solving</li>
                             </ul>
@@ -451,7 +480,7 @@
                             <h5>Customer Service Team Leader</h5>
                             <p class="ss-line-header">Main activities:</p>
                             <ul>
-                                <li>Team hiring, feedback and recycling</li>
+                                <li>Team management</li>
                                 <li>New employees training and content production for knowledge base</li>
                                 <li>Motivational campaigns creation for the entire CS Operation</li>
                                 <li>KPI monitoring (FCR, NSAT, TMO, TMA, ABS)</li>
@@ -460,7 +489,6 @@
                             </ul>
                             <p class="ss-line-header">Main soft skills:</p>
                             <ul>
-                                <li>Leadership and team training</li>
                                 <li>Flexibility and adaptability</li>
                                 <li>Assertiveness and problem solving</li>
                             </ul>
